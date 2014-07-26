@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 # encoding: utf-8
 """
-untitled.py
+indexdmap.py
 
-Created by Nils Domrose on 2012-09-24.
-Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+Created by Nils Domrose on 2014-07-26.
 """
 
 import os
@@ -50,7 +49,8 @@ def valid_file_name(file_name):
         raise argparse.ArgumentTypeError(msg)
 
 """
-Helper function to validate the existence of a given file.
+Helper function to validate the existence of a set of shape files for a
+given prefix. The shapefiles can be downloaded from naturalearthdata.com. 
 This function can be used by the arg parser to validate a custom type.
 """
 def valid_shape_prefix(file_name):
@@ -63,7 +63,7 @@ def valid_shape_prefix(file_name):
 
 
 """
-Helper funtion to parse config in a given file an return an dict.
+Helper funtion to parse config in a given file and return an dict.
 """
 def parse_config(file_name):
     config = ConfigParser.RawConfigParser()
