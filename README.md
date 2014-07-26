@@ -1,0 +1,4 @@
+indexedmap
+==========
+
+create indexed worldmaps
