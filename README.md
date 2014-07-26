@@ -11,7 +11,8 @@ Extract the data into the *shapes* directory:
 
 ```
 $ cd shapes
-$ unzip ne_10m_admin_0_sovereignty.zip
+$ wget http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_sovereignty.zip && unzip ne_10m_admin_0_sovereignty.zip
+$ cd ..
 ```
 
 Once you have everything ready it's time for your first plot:
