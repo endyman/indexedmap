@@ -29,7 +29,7 @@ $ cd ..
 Once you have everything ready it's time for your first plot:
 
 ```
-$ indexedmap.py -v
+$ /usr/local/bin/python indexedmap.py -v
 ```
 A new new indexed map should be generate in the *output*.
  directory
