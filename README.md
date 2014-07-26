@@ -2,7 +2,7 @@
 indexedmap.py is a tool to plot (color)indexed worldmaps from shape data using matplotlib.
 The images can be used as lookup textures for country click detection or highlighting.
 
-The required shape data can be downloaded from [naturaleathdata](http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_sovereignty.zip).
+The required shape data can be downloaded from [naturalearthdata](http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_sovereignty.zip).
 
 ## Requirements
 In addition to the shape files you need matplotlib and matplotlib-basemap.
