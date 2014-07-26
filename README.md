@@ -43,7 +43,7 @@ A new new indexed map should be generate in the *output*.
 'MC':224,'VA':225,'IM':226,'GU':227,'SG':228, 'SS':229, 'XK': 230}
 ```
 
-Take a lok at the indexedmap.ini for tweaking.
-## Sample
+Take a look at the indexedmap.ini for tweaking.
+## Samples
 ![sample_image](sample/map_indexed.png)
 
