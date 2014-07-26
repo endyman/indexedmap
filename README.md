@@ -9,20 +9,22 @@ In addition to the shape files you need matplotlib and matplotlib-basemap.
 
 Extract the data into the *shapes* directory:
 
-`$ cd shapes
-$ unzip ne_10m_admin_0_sovereignty.zip`
+```
+$ cd shapes
+$ unzip ne_10m_admin_0_sovereignty.zip
+```
 
 Once you have everything ready it's time for your first plot:
 
-`
+```
 $ indexedmap.py -v
-`
+```
 A new new indexed map should be generate in the *output*.
  directory
  The map will be generated using 256 grey step using the following lookup table:
 
 ## Color Mapping
-`
+```
 {'PE':1,'BF':2,'FR':3,'LY':4,'BY':5,'PK':6,'ID':7,'YE':8,'MG':9,'BO':10,'CI':11,'DZ':12,'CH':13,'CM':14,'MK':15,'BW':16,'UA':17,
 'KE':18,'TW':19,'JO':20,'MX':21,'AE':22,'BZ':23,'BR':24,'SL':25,'ML':26,'CD':27,'IT':28,'SO':29,'AF':30,'BD':31,'DO':32,'GW':33,
 'GH':34,'AT':35,'SE':36,'TR':37,'UG':38,'MZ':39,'JP':40,'NZ':41,'CU':42,'VE':43,'PT':44,'CO':45,'MR':46,'AO':47,'DE':48,'SD':49,
@@ -39,9 +41,9 @@ A new new indexed map should be generate in the *output*.
 'VI':196,'GD':197,'MT':198,'MV':199,'KY':200,'KN':201,'MS':202,'BL':203,'NU':204,'PM':205,'CK':206,'WF':207,'AS':208,'MH':209,
 'AW':210,'LI':211,'VG':212,'SH':213,'JE':214,'AI':215,'MF_1_':216,'GG':217,'SM':218,'BM':219,'TV':220,'NR':221,'GI':222,'PN':223,
 'MC':224,'VA':225,'IM':226,'GU':227,'SG':228, 'SS':229, 'XK': 230}
-`
+```
 
 Take a lok at the indexedmap.ini for tweaking.
-
+## Sample
 ![sample_image](sample/map_indexed.png)
 
