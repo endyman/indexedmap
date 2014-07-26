@@ -7,6 +7,17 @@ The required shape data can be downloaded from [naturalearthdata](http://www.nat
 ## Requirements
 In addition to the shape files you need matplotlib and matplotlib-basemap.
 
+### Prepare OSX
+```
+$ brew update
+$ brew doctor
+$ brew install gcc
+$ brew install python
+$ brew install homebrew/python/matplotlib-basemap
+$ /usr/local/bin/pip install python-datutil
+```
+
+### Fetch and unzip shape data
 Extract the data into the *shapes* directory:
 
 ```
