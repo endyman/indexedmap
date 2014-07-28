@@ -56,6 +56,8 @@ A new new indexed map should be generate in the *output*.
 ```
 
 Take a look at the indexedmap.ini for tweaking.
+
+
 ## Samples
 ![sample_image](sample/map_indexed.png)
 
